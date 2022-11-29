@@ -1,0 +1,23 @@
+{
+  "name": "@leukeleu/stylelint-config",
+  "version": "1.0.0",
+  "description": "Reusable Stylelint config for Leukeleu projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check .",
+    "lintfix": "prettier --write ."
+  },
+  "keywords": [
+    "config",
+    "stylelint"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@leukeleu/prettier-config": "~1.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "14.15.0",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-standard": "29.0.0"
+  }
+}
