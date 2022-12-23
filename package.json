@@ -13,12 +13,12 @@
     "stylelint"
   ],
   "license": "MIT",
-  "devDependencies": {
-    "@leukeleu/prettier-config": "~1.2.1"
-  },
-  "peerDependencies": {
+  "dependencies": {
     "stylelint": "14.15.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard": "29.0.0"
+  },
+  "devDependencies": {
+    "@leukeleu/prettier-config": "~1.2.1"
   }
 }
