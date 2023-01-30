@@ -18,7 +18,8 @@ module.exports = {
 
 ## Add script commands to package.json
 
-For example, to lint all .pcss files inside the /pages/styles/ directory: 
+For example, to lint all .pcss files inside the /pages/styles/ directory:
+
 ```
 "scripts": {
   "lint:stylelint": "stylelint './pages/styles/*.pcss'",
