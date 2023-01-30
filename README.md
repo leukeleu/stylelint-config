@@ -16,9 +16,23 @@ module.exports = {
 }
 ```
 
+## Add script commands to package.json
+
+```
+"scripts": {
+  "stylelint": "styelint . --cache",
+  "lint:stylelint": "npm run stylelint -- --check",
+  "lintfix:stylelint": "npm run stylelint -- --write",
+}
+```
+
+## Adding an ignore file
+
+If you don't want to lint certain files you can create a file named .stylelintignore in the root and add ignored file(types) to it.
+
 ## Running the check
 
-You can just use the normal Stylelint cli to run the check e.g. `stylelint '<path to css>'`
+You can now run stylelint check by calling `npm run lint:stylelint` or auto-fix by calling `npm run lintfix:stylelint`
 
 ## Extending/ changing config
 
