@@ -23,7 +23,7 @@ For example, to lint all .pcss files inside the /pages/styles/ directory:
 ```
 "scripts": {
   "lint:stylelint": "stylelint './pages/styles/*.pcss'",
-  "lintfix:stylelint": "stylelint --fix './pages/styles/*.pcss'"
+  "lintfix:stylelint": "npm run lint:stylelint -- --fix"
 }
 ```
 
