@@ -16,9 +16,24 @@ module.exports = {
 }
 ```
 
+## Add script commands to package.json
+
+For example, to lint all .pcss files inside the /pages/styles/ directory:
+
+```
+"scripts": {
+  "lint:stylelint": "stylelint './pages/styles/*.pcss'",
+  "lintfix:stylelint": "npm run lint:stylelint -- --fix"
+}
+```
+
+## Adding an ignore file
+
+If you don't want to lint certain files you can create a file named .stylelintignore in the root and add ignored file(types) to it.
+
 ## Running the check
 
-You can just use the normal Stylelint cli to run the check e.g. `stylelint '<path to css>'`
+You can now run stylelint check by calling `npm run lint:stylelint` or auto-fix by calling `npm run lintfix:stylelint`
 
 ## Extending/ changing config
 
