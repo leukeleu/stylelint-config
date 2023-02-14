@@ -1,7 +1,7 @@
 {
   "name": "@leukeleu/stylelint-config",
   "repository": "https://github.com/leukeleu/stylelint-config.git",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Reusable Stylelint config for Leukeleu projects",
   "main": "index.js",
   "scripts": {
