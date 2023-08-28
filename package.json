@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "stylelint": "15.10.2",
+    "stylelint": "15.10.3",
     "stylelint-config-standard": "34.0.0"
   },
   "devDependencies": {
