@@ -48,8 +48,6 @@ module.exports = {
 }
 ```
 
-## Testing this package
+## Contributing
 
-To reduce the chances of publishing bugs, test your package before publishing it to the npm registry. Run npm install with the full path to your package directory. You can get this path with `pwd` in your terminal.
-
-`npm install <local path to this repo>`
+To learn how to local test and publish this package, please refer to the instructions in the `CONTRIBUTORS.md` file.
